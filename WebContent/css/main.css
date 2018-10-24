@@ -1,0 +1,304 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 90px!important;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  left: 0px;
+  width: 100%;
+}
+
+.noselect {
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.button-style {btn-warning;rounded-0;border-5;border-dark;
+	
+}
+
+.card-slider {
+	height: 208px;
+	width: 148px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.carousel-indicators {
+	bottom: 0px !important;
+}
+
+.carousel-indicators li {
+	background-color: #ffc107!important;
+	bottom: 0px!important;
+	cursor: default!important;	
+}
+
+.carousel-indicators .active {
+	background-color: black !important
+}
+
+.card-chooser {
+	width: 45% !important
+}
+
+#croupier {
+	width: 40%;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	max-width: 320px;
+}
+
+.move-to-left {
+	margin: 0 0 0 -122px;
+}
+
+.playing-card {
+	width: 147px;
+	height: 208px;
+	float: left;
+	background: url(../img/deck.png) no-repeat;
+}
+
+#CA {
+	background-position: -588 -832px;
+}
+
+#DA {
+	background-position: -882 -208px;
+}
+
+#HA {
+	background-position: -441 -416px;
+}
+
+#SA {
+	background-position: 0 -624px;
+}
+
+#C2 {
+	background-position: -441 0px;
+}
+
+#D2 {
+	background-position: 0 -832px;
+}
+
+#H2 {
+	background-position: -441 -624px;
+}
+
+#S2 {
+	background-position: -147 -832px;
+}
+
+#C3 {
+	background-position: -588 0px;
+}
+
+#D3 {
+	background-position: -441 -832px;
+}
+
+#H3 {
+	background-position: -294 -624px;
+}
+
+#S3 {
+	background-position: -294 -1040px;
+}
+
+#C4 {
+	background-position: -294 -208px;
+}
+
+#D4 {
+	background-position: -1176 -208px;
+}
+
+#H4 {
+	background-position: -0 -416px;
+}
+
+#S4 {
+	background-position: -147 -1040px;
+}
+
+#C5 {
+	background-position: -147 -208px;
+}
+
+#D5 {
+	background-position: -1029 -624px;
+}
+
+#H5 {
+	background-position: -735 -624px;
+}
+
+#S5 {
+	background-position: -882 -832px;
+}
+
+#C6 {
+	background-position: -294 0px;
+}
+
+#D6 {
+	background-position: -1176 -832px;
+}
+
+#H6 {
+	background-position: -588 -416px;
+}
+
+#S6 {
+	background-position: -735 -832px;
+}
+
+#C7 {
+	background-position: -882 -416px;
+}
+
+#D7 {
+	background-position: -1176 0px;
+}
+
+#H7 {
+	background-position: -147 -624px;
+}
+
+#S7 {
+	background-position: -1176 -416px;
+}
+
+#C8 {
+	background-position: 0 -208px;
+}
+
+#D8 {
+	background-position: -735 -1040px;
+}
+
+#H8 {
+	background-position: -735 -416px;
+}
+
+#S8 {
+	background-position: -1034 0px;
+}
+
+#C9 {
+	background-position: -147 0px;
+}
+
+#D9 {
+	background-position: -588 -1040px;
+}
+
+#H9 {
+	background-position: -588 -208px;
+}
+
+#S9 {
+	background-position: -294 -832px;
+}
+
+#C10 {
+	background-position: -1029 -832px;
+}
+
+#D10 {
+	background-position: 0 -1040px;
+}
+
+#H10 {
+	background-position: -735 -208px;
+}
+
+#S10 {
+	background-position: -1032 -416px;
+}
+
+#CJ {
+	background-position: -1029 -208px;
+}
+
+#DJ {
+	background-position: -882 0px;
+}
+
+#HJ {
+	background-position: -735 0px;
+}
+
+#SJ {
+	background-position: 0 0px;
+}
+
+#CQ {
+	background-position: -884 -624px;
+}
+
+#DQ {
+	background-position: -884 -1040px;
+}
+
+#HQ {
+	background-position: -588 -624px;
+}
+
+#SQ {
+	background-position: -149 -416px;
+}
+
+#CK {
+	background-position: -441 -1040px;
+}
+
+#DK {
+	background-position: -1182 -624px;
+}
+
+#HK {
+	background-position: -294 -416px;
+}
+
+#SK {
+	background-position: -441 -208px;
+}
+
+@media only screen and (max-width: 409px) {
+	.card-chooser {
+		width: 100% !important;
+	}
+	#croupier {
+		width: 0%;
+	}
+	 tr th:nth-child(2),tr td:nth-child(2),
+	 tr th:nth-child(4),tr td:nth-child(4){
+      display:none;
+    }
+}
+
+@media only screen and (max-width: 599px) {
+	 tr th:nth-child(2),tr td:nth-child(2),
+	 tr th:nth-child(4),tr td:nth-child(4){
+      display:none;
+    }
+    th {
+    padding-right: 2px!important;
+    padding-left: 2px!important;
+    }
+}
